@@ -16,6 +16,7 @@ public class Main {
             System.out.println("Choose an option by entering its corresponding number:");
             System.out.println("1. Add a Service\n2. Book a Service\n3. Check Cart\n4. Exit");//Prompt user to choose an option
             option = sc.nextInt();
+            sc.nextLine();
             while (option < 1 || option > 4) {
                 System.out.println("Invalid option, enter again");
                 option = sc.nextInt();
