@@ -22,7 +22,6 @@ public class Main {
                 option = sc.nextInt();
                 sc.nextLine();
             }
-            sc.nextLine();
             switch (option) {
                 case 1:
                     boolean addService = true;//Used for choosing either to keep adding services or stop
